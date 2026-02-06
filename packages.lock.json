@@ -1,115 +1,49 @@
 {
   "version": 1,
   "dependencies": {
-    "net6.0": {
-      "Microsoft.AspNetCore.Authentication.JwtBearer": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "sha512-g9vGRCr/xjcmfZftnC6CkYM3ikXLKH2Y/3l/YjKZLYQZ8mJRVEz7fKlGkGq/bKw0LHXGMrE7uKhUHBPKGKNkKQ=="
-      },
-      "Microsoft.Extensions.Configuration.Abstractions": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14q+lqFHo4v5+RdHqLjUxQ=="
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6czKMUGKfEvM1DmxKMHTTr9FqJEXBg5HPSj2BLMiUP1R0cY3Q=="
-      },
-      "Microsoft.Extensions.Logging.Abstractions": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA=="
-      },
-      "Microsoft.Extensions.Options": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "sha512-dzXN0+V1AeTKbPMBDG6Y9QDGJCiIyFtP1m6B3K0RMsKnqCnrLqtABHvmHYgLGFXWgr/9S3HKLvLQmnkUSVKMHg=="
-      },
-      "Microsoft.Identity.Client": {
-        "type": "Transitive",
-        "resolved": "4.46.0",
-        "contentHash": "sha512-cFAhRVgfZ9pCx/NxbJvLYj5xzyqCHmvQY+F1HlCPz7vg1hLQiLLJdJgJ0k5pKXVYLqNqJh2zG5GwvLuXYVQXZg=="
+    ".NETStandard,Version=v2.0": {
+      "System.Security.Cryptography.Pkcs": {
+        "type": "Direct",
+        "requested": "[6.0.4, )",
+        "resolved": "6.0.4",
+        "contentHash": "db8bba63d2ff4b9bd7a35abaa754296000efd9de8ac6585564c5a1241ec782fa193f12e56807e717e62522bb77f127c6034b43af28fa62e599149d49290979a2"
       },
       "Microsoft.Identity.Web": {
         "type": "Direct",
-        "requested": "[1.25.0, )",
-        "resolved": "1.25.0",
-        "contentHash": "sha512-lbKnYp0yvZcEfC8LqRbUhNXRZLqFqUfZ7JmQNGR8qYAqH+7H8RRmJ/qPL4Bd/YyKqOaHKQJM3YbQK0DjP7hG0w==",
-        "dependencies": {
-          "Microsoft.Identity.Client": "4.46.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.21.0"
-        }
+        "requested": "[2.16.0, )",
+        "resolved": "2.16.0",
+        "contentHash": "506011333db1ae91c014859755c5efdcae3b66c713f339d0b272d93ec6ab2f229f00604d2108ac19ca9b5cb58c9457ef0070ca2080b6a855281e78bce57f6d48"
       },
-      "Microsoft.IdentityModel.JsonWebTokens": {
-        "type": "Transitive",
-        "resolved": "6.21.0",
-        "contentHash": "sha512-d3h1/wgmF8vVUc/dJXYGj1mJqhKPKxPKNlvWrh6FqQgYZA1JFFlKKsP+K3Y8F3KFrKJCPp0F9lQaQnCKLqJWMA=="
+      "System.Security.Cryptography.Xml": {
+        "type": "Direct",
+        "requested": "[6.0.2, )",
+        "resolved": "6.0.2",
+        "contentHash": "55c95d7b94b90964a4232927ec29a45fe702db96e86439094397701ba5df3272b2981033a5f552f143f2e76de4b0eb4078616a8b0ac157106ba449c0c0291c9a"
       },
-      "Microsoft.IdentityModel.Logging": {
-        "type": "Transitive",
-        "resolved": "6.21.0",
-        "contentHash": "sha512-tuJ3kBhXu+LmY3+r6eBCx3qKB/WcPqxKKqFqPPXBhzLjTBKwjsJ3MbLqJLwsHJ+R7bAiLPPH8FIpVP4tN3mPow=="
+      "System.Net.Http": {
+        "type": "Direct",
+        "requested": "[4.3.4, )",
+        "resolved": "4.3.4",
+        "contentHash": "163edeef734d1f0a1ff7b8053d326eabc82fe86f3de72c6466dd780d59d974487882f2a5f16ae4b02c0d8c8a7f25e617ff2bbfab133f88ebfd6a2f99637169ed"
       },
-      "Microsoft.IdentityModel.Protocols": {
-        "type": "Transitive",
-        "resolved": "6.21.0",
-        "contentHash": "sha512-9NL20Y2TeB/HfYVP3CG6LDfqXppLDm92fJXFJzLwE1NJ0hFuPyOPR6PmMJEBpPNqZ/fYhJl6MdxD6NJjPJFWfg==",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "6.21.0",
-          "Microsoft.IdentityModel.Tokens": "6.21.0"
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
-        "type": "Transitive",
-        "resolved": "6.21.0",
-        "contentHash": "sha512-fB4RYTZjGpGdqHhc5lKjDPBT8SUhRJmXKxLrPNLK5rYCdyRLPccfGC6DjCQ8c3BFQGMqE0PWMRW0k5vXCfPryw==",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "6.21.0",
-          "System.IdentityModel.Tokens.Jwt": "6.21.0"
-        }
-      },
-      "Microsoft.IdentityModel.Tokens": {
-        "type": "Transitive",
-        "resolved": "6.21.0",
-        "contentHash": "sha512-d3h1/wgmF8vVUc/dJXYGj1mJqhKPKxPKNlvWrh6FqQgYZA1JFFlKKsP+K3Y8F3KFrKJCPp0F9lQaQnCKLqJWMA==",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Microsoft.IdentityModel.Logging": "6.21.0",
-          "System.Security.Cryptography.Cng": "4.5.0"
-        }
-      },
-      "Microsoft.CSharp": {
-        "type": "Transitive",
-        "resolved": "4.5.0",
-        "contentHash": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ=="
+      "System.Text.Encodings.Web": {
+        "type": "Direct",
+        "requested": "[6.0.0, )",
+        "resolved": "6.0.0",
+        "contentHash": "0f26afeeaa709ea1f05ef87058408dd9df640c869d7398b2c9c270268ddf21a9208cd7d2bfa1f7fbd8a5ceab735dd22d470a3689627c9c4fadc0ea5fe76237fa"
       },
       "Newtonsoft.Json": {
         "type": "Direct",
-        "requested": "[11.0.2, )",
-        "resolved": "11.0.2",
-        "contentHash": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+Ciz7v3p5Q8FXZxNXNNzN7yzFbJ8f9J/QJMyT2NP3MTUZaXKQ=="
+        "requested": "[13.0.1, )",
+        "resolved": "13.0.1",
+        "contentHash": "83731b662eaf05379a23f8446ef47bbc111349dd4358b7bd8b51383fe9cf637e2fe62f78cea52a0d7bdd582dc6fbbb5837d4a7b1d53dcf37a0ae7473e21ee7b1"
       },
       "Swashbuckle.AspNetCore": {
         "type": "Direct",
         "requested": "[6.2.3, )",
         "resolved": "6.2.3",
-        "contentHash": "sha512-cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcKXtqR7QjGH0DmLjrKLH6TqC7MxHhqDhOLPQF0xQz5i6KvFLJ3nZjA==",
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.2.3",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.2.3",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
-        }
-      },
-      "Swashbuckle.AspNetCore.Swagger": {
-        "type": "Transitive",
-        "resolved": "6.2.3",
-        "contentHash": "sha512-qOF7j1sL0bWm8g/qqHVPCvkO3JlVvUIB8WfC98kSh6BT5y5DAnBNctfac7XR5EZf+eD7/WasvANncTqwZYfmWQ=="
-      },
-      "Swashbuckle.AspNetCore.SwaggerGen": {
-        "type": "Transitive",
-        "resolved": "6.2.3",
-        "contentHash": "sha512-+Xq7WdMCCfcXlnbLJVFNgY8ITdP2TRYIlpbt6IKzDw5FwFxdi9lBfNDtcT+/wkKwX70iBBFmXldnnd02/VO72A=="
-      },
-      "Swashbuckle.AspNetCore.SwaggerUI": {
+        "contentHash": "3e491d5f00e2ea8c26170ed72c0ab670beb3d8178baff82a4aa8e97986791f65125c62a73e413d5d6b435ca2205e2bbe92d6e542a504a7ad2cce552eb3548f93"
+      }
+    }
+  }
+}
