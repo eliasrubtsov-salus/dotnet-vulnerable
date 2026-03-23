@@ -4,7 +4,7 @@
     "net6.0": {
       "Microsoft.AspNetCore.Authentication.JwtBearer": {
         "type": "Transitive",
-        "resolved": "6.0.0",
+        "resolved": "2.0.0",
         "contentHash": "sha512-g9vGRCr/xjcmfZftnC6CkYM3ikXLKH2Y/3l/YjKZLYQZ8mJRVEz7fKlGkGq/bKw0LHXGMrE7uKhUHBPKGKNkKQ=="
       },
       "Microsoft.Extensions.Configuration.Abstractions": {
